@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Formatting Tags; Basics of HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <a href="page2.html">Previous Page!</a>
+      <a href="page4.html">Next Page!</a>
+    </nav>
+    <main>
+      <h2>Formatting Tags</h2>
+      <p>
+        HTML has two types of body elements: block-level elements and inline elements. 
+        <b><i>Block-level elements</i></b> will automatically appear on separate lines in your code, 
+        while <b><i>inline elements</i></b> appear horizontally so that the text does not start a new line. The following tags are examples of inline elements!
+      </p>
+      
+      <ul>
+        <li><b>&lt;b&gt;</b><b>this tag makes text appear bold </b> &lt;/b&gt;</li>
+        <li><b>&lt;strong&gt;</b><strong>this tag is similar to the bold tag and also makes text appear bold</strong> &lt;/strong&gt;</li>
+        <li><b>&lt;i&gt;</b> <i>this tag makes text appear italicized</i> &lt;/i&gt;</li>
+        <li><b>&lt;em&gt;</b> <em>this tag also makes text appear italicized</em> &lt;/em&gt;</li>
+        <li><b>&lt;mark&gt;</b> <mark>With this tag, text will appear highlighted</mark> &lt;/mark&gt;</li>
+        <li><b>&lt;small&gt;</b> <small>This tag makes text appear small</small> &lt;/small&gt;</li>
+        <li><b>&lt;del&gt;</b> <del>With this tag, text will appear crossed out</del> &lt;/del&gt;</li>
+        <li><b>&lt;ins&gt;</b> <ins>This tag makes text appear underlined</ins> &lt;/ins&gt;</li>
+        <li><b>&lt;sub&gt;</b> <sub>This tag makes text appear as a subscript</sub> &lt;/sub&gt; For example, H<sub>2</sub>O</li>
+        <li><b>&lt;sup&gt;</b> <sup>This tag makes text appear as a superscript</sup> &lt;/sup&gt;</li>
+      </ul>
+
+      <h3>Structural Tags</h3>
+      <p>There are also list elements <b>(block level elements)</b> which consist of:</p>
+      <ul>
+        <li>&lt;ol&gt; This tag creates an ordered list with numbers. However, the tag &lt;ul&gt; creates an unordered list with bullet points instead.</li>
+      </ul>
+      
+      <p><b>Note:</b> Remember to always put <code>&lt;ul&gt;</code> or <code>&lt;ol&gt;</code> first, followed by the <code>&lt;li&gt;</code> tag, or else your code will appear incorrect when passed through a validator and the bullet points/numbers you wanted will not appear.</p>
+
+      <p>If you are curious about what an unordered list would look like, look above! The list of formatting tags shows different tags using the <code>&lt;ul&gt;</code> tag. Below is an example of an ordered list.</p>
+      
+      <ol>
+        <li>This</li>
+        <li>Is</li>
+        <li>An</li>
+        <li>Ordered</li>
+        <li>List</li>
+      </ol>
+      
+      <p><b><i>The code would look something like the following...</i></b></p>
+
+      <pre><code>&lt;ol&gt;</code></pre>
+      <pre><code>&lt;li&gt; Hello &lt;/li&gt;</code></pre>
+      <pre><code>&lt;li&gt; World! &lt;/li&gt;</code></pre>
+      <pre><code>&lt;/ol&gt;</code></pre>
+
+      <p> <b> or...</b></p>
+      <pre><code>&lt;ul&gt;</code></pre>
+      <pre><code>&lt;li&gt; Hello &lt;/li&gt;</code></pre>
+      <pre><code>&lt;li&gt; World! &lt;/li&gt;</code></pre>
+      <pre><code>&lt;/ul&gt;</code></pre>
+
+      <a href="index.html">Return to Home Page</a>
+    </main>
+  </body>
+</html>

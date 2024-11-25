@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>File Paths</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script type="module" src="script.js"></script>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="page10.html" aria-current="page">Previous Page!</a>
+    <a href="page12.html" aria-current="page">Next Page!</a>
+    
+    <h1>File Paths</h1> 
+    <p>
+      A file path is the route to locating a file on your computer. 
+      <b>An absolute path</b> is the full URL or complete path starting from the root directory, and it points to the exact location of a file or resource. 
+      <b>A relative path</b>, on the other hand, is a partial path based on the current directory or location of the webpage. 
+    </p>
+    
+    <p><b>Absolute Path</b></p>
+    <ol> 
+      <li>It is best to use absolute paths when referring to files that exist outside of your current computer.</li> 
+      <li>Absolute paths use the full URL to a file.</li>
+    </ol> 
+    <p><i>Here is an example of what the code for an absolute path would look like...</i></p>
+    <code>&lt;img src="https://www.example.com/images/picture.jpg" alt="Example Image" /&gt;</code> 
+
+    <p><b>Relative Paths</b></p> 
+    <ol> 
+      <li>It is best to use relative paths when referring to files that are on your own current computer or server.</li> 
+    </ol>
+    <p><i>Here is an example of what the code for a relative path would look like...</i></p> 
+    <code>&lt;img src="images/picture.jpg" alt="Example Image" /&gt;</code> 
+
+    <table>
+      <thead>
+        <tr>
+          <th>Path</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;img src="picture.jpg"&gt;</td>
+          <td>The "picture.jpg" file is located in the same folder as the current page</td>
+        </tr>
+        <tr>
+          <td>&lt;img src="images/picture.jpg"&gt;</td>
+          <td>The "picture.jpg" file is located in the images folder in the current folder</td>
+        </tr>
+        <tr>
+          <td>&lt;img src="/images/picture.jpg"&gt;</td>
+          <td>The "picture.jpg" file is located in the images folder at the root of the current web</td>
+        </tr>
+        <tr>
+          <td>&lt;img src="../picture.jpg"&gt;</td>
+          <td>The "picture.jpg" file is located in the folder one level up from the current folder</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Reference Key on when to use the following:</p>
+    <ul>
+      <li>Going up ../</li>
+      <li>Going down ./</li>
+    </ul>
+    
+
+    <a href="index.html">Return to Home Page</a>
+  </body>
+</html>

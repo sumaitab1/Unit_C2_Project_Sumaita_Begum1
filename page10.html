@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Entities</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body> 
+    <a href="page9.html" aria-current="page">Previous Page!</a>
+    <a href="page11.html" aria-current="page">Next Page!</a>
+
+    <h1>HTML Entities</h1>
+    <p>Several characters are reserved only for the use of HTML. However, other characters difficult to type on the keyboard, such as emojis, cannot be made without a special application. To display these characters, you can use the following methods:</p>
+    
+    <ol> 
+      <li>(Nickname method) & + nickname + ;</li>
+      <li>(Number Method): & + # + Unicode Number + ;</li>
+    </ol>
+
+    <p><b>Example:</b> &lt; becomes &amp;lt; (without spaces)</p>
+    <p><i>Next, we have the number method:</i></p>
+    <p><b>Example:</b> &lt; becomes &#60; (without spaces)</p>
+
+    <p><b>Here is a chart of Essential Entities. (Do not include spaces)</b></p>
+
+    <table>
+      <tr>
+        <th>Entity</th>
+        <th>Nickname</th>
+        <th>Number</th>
+      </tr>
+      <tr>
+        <td>&lt;</td>
+        <td>&amp;lt;</td>
+        <td>&amp;#60;</td>
+      </tr>
+      <tr>
+        <td>&gt;</td>
+        <td>&amp;gt;</td>
+        <td>&amp;#62;</td>
+      </tr>
+      <tr>
+        <td>&amp;</td>
+        <td>&amp;amp;</td>
+        <td>&amp;#38;</td>
+      </tr>
+    </table>    
+
+    <a href="index.html">Return to Home Page</a>
+  </body>
+</html>

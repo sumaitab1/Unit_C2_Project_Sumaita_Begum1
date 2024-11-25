@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>How to Create Tables using HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script type="module" src="script.js"></script>
+    <style>
+      table, th, td {
+        border: 1px solid pink;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="page6.html" aria-current="page">Previous Page!</a>
+    <a href="page8.html" aria-current="page">Next Page!</a>
+
+    <h1>Creating Tables</h1> 
+    <ol> 
+      <li> Tables allow web developers to organize and arrange their data collected into a grid-like structure. For tables, we use the following tags: 
+        <ul> 
+          <li>&lt;table&gt; (This tag creates the actual table)</li>
+          <li>&lt;tr&gt; (This tag creates the row)</li>
+          <li>&lt;th&gt; (This tag creates the heading cell)</li>
+          <li>&lt;td&gt; (This tag creates a data cell)</li>  
+        </ul>
+      </li>
+      <li> To create borders in HTML5, you will have to use CSS.</li>
+      <li> In order to change the table and cell sizes, we use the following:
+        <ul>
+          <li>table {insert width and height in pixels}</li>
+          <li>For cell sizes: th, td {insert width and height in pixels}</li>
+          <li>For colspan and rowspan, we use &lt;th colspan="#"&gt; or &lt;th rowspan="#"&gt;</li>
+        </ul>
+      </li>
+    </ol>
+    <p> ____________________________________________________________________________________________________________________________</p>
+
+    <p><b><i>Here is an example of what a table would look like:</i></b></p>
+
+    <table>
+      <tr>
+        <th>Column #1</th>
+        <th>Column #2</th>
+        <th>Column #3</th>
+        <th>Column #4</th>
+      </tr>
+      <tr>
+        <td>Row Cell #1a</td>
+        <td>Row Cell #1b</td>
+        <td>Row Cell #1c</td>
+        <td>Row Cell #1d</td>
+      </tr>
+    </table>
+
+    <p><b>NOTE: Don't forget to put the style code to choose the thickness of your lines and color. I like pink, so the example above I used pink!</b></p>
+
+    <p><b><i>Here is an example of what the code for a table similar to the example would look like:</i></b></p>
+    
+    <code>
+      &lt;table&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;th&gt;Column #1&lt;/th&gt;<br>
+      &lt;th&gt;Column #2&lt;/th&gt;<br>
+      &lt;th&gt;Column #3&lt;/th&gt;<br>
+      &lt;th&gt;Column #4&lt;/th&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;td&gt;Row Cell #1&lt;/td&gt;<br>
+      &lt;td&gt;Row Cell #2&lt;/td&gt;<br>
+      &lt;td&gt;Row Cell #3&lt;/td&gt;<br>
+      &lt;td&gt;Row Cell #4&lt;/td&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;/table&gt;
+    </code>
+<p> <a href="index.html" aria-current="page">Return to Home Page</a> </p>
+    
+  </body>
+</html>

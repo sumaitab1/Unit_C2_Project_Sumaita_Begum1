@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Iframes</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <a href="page7.html" aria-current="page">Previous Page!</a>
+    <a href="page9.html" aria-current="page">Next Page!</a>
+
+    <h1>iFrames</h1>
+    <ol>
+      <li>
+        iFrames allow one HTML document to display the contents of other HTML documents. We use the &lt;iframe&gt; element to accomplish this. The HTML iframe syntax is:  
+        <code>&lt;iframe src="url" title="description"&gt;&lt;/iframe&gt;</code>
+        <ul>
+          <li>The src attribute is used to determine the path to the HTML document page that will provide the contents of the iframe.</li>
+        </ul>
+      </li>
+      <li>
+        To adjust the height and width of the iframe window, we use:  
+        <ul>
+          <li>
+            <code>&lt;iframe src="url" title="description" height="&lt;b&gt;#&lt;/b&gt;" width="&lt;b&gt;%&lt;/b&gt;"&gt;&lt;/iframe&gt;</code>
+          </li>
+        </ul>
+      </li>
+    </ol>
+
+    <p><b><i>Here is an example of what an iframe would look like... (in this example, I will be linking 2048!)</i></b></p>
+
+    <iframe src="https://2048.gg/cupcakes" title="2048"></iframe>
+
+    <p><b><i>This is what the code for this would look like:</i></b></p>
+
+    <code>&lt;iframe src="https://2048.gg/cupcakes" title="2048"&gt;<br>
+    &lt;/iframe&gt;</code>
+
+    <a href="index.html">Return to Home Page</a>
+  </body>
+</html>
